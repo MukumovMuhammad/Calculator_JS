@@ -1,0 +1,34 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    /* border:solid red 100px; */
+}
+
+#wrap{
+    width: 300px;
+    height: 275px;
+    text-align: center;
+    margin: 0 auto;
+    background-color:aqua;
+    border:solid green;
+}
+
+h1{
+    background-color:beige;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+p:nth-child(4){
+    background-color: beige;
+    width: 200px;
+    height: 60px;
+    margin: 0 auto;
+    color:black;
+}
+
+p:nth-child(5) input{
+    background-color: azure;
+    font-size: 16px;
+}
